@@ -1,4 +1,7 @@
+*{margin: 0; padding: 0;}
+
 .topnav{background-color: olive; overflow: hidden;}
+
 .topnav a{float: left;
           color: rgb(2, 35, 7);
           text-align: center;
@@ -10,13 +13,32 @@
 
 
 section{background-color: darkolivegreen;
-        color: black;}
+        color: black;
+        width: 100vw;
+        height: 100vh;}
 
 h1{text-align: center;
-    font-size: 50px;}
+    font-size: 50px;
+    margin-bottom: 10%;}
+
 h2{text-align: center;
-    font-size: 30px;}
-img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+    font-size: 30px;
+    margin-bottom: 5%;}
+
+img{display: block; margin-left: auto; margin-right: auto; margin-bottom: 10%; width: 50%;}
+
 p{text-align: center;
   font-size: large;
   font-style: italic;}
+
+#paragraph1{font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 200;}
+
+#paragraph2{font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 200;}
+
+.about{margin-top: 10%;}
+
+#image1{margin-top: 5%;}
